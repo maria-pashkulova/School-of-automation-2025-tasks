@@ -5,6 +5,7 @@ using System.Reflection;
 
 namespace SessionNamespaces
 {
+    //class is accessible only within its own assembly (current project)
     internal class Program
     {
         static void Main(string[] args)

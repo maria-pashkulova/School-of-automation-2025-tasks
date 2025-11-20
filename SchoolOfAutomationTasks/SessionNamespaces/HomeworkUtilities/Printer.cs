@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 //Create a custom namespace called HomeworkUtilities with a class Printer that prints a message.
 namespace SessionNamespaces.HomeworkUtilities
 {
-   
+    //class is accessible only within its own assembly (current project)
     internal class Printer
     {
         private static int usageCount = 0;

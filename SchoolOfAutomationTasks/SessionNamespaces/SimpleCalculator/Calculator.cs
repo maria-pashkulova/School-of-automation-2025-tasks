@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SessionNamespaces.SimpleCalculator
 {
+    //class is accessible only within its own assembly (current project)
     internal class Calculator
     {
         public int Add(int a, int b)
