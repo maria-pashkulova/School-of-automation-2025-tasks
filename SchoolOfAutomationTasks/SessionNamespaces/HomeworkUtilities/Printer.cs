@@ -19,7 +19,7 @@ namespace SessionNamespaces.HomeworkUtilities
 
         public static void GetPrintedMessagesCount()
         {
-            Console.WriteLine($"Printed {usageCount} message(s) by far");
+            Console.WriteLine($"Printed {usageCount} message(s)");
         }
     }
 }
