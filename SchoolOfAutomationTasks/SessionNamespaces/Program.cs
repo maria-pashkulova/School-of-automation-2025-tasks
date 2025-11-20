@@ -1,4 +1,6 @@
 ﻿using SessionNamespaces.HomeworkUtilities;
+using SessionNamespaces.SimpleCalculator;
+using System.Reflection;
 
 
 namespace SessionNamespaces
@@ -27,8 +29,16 @@ namespace SessionNamespaces
 
             Printer.PrintMessage("\nArithmetic and logical operations results for x = 12 and y = 5:");
             Printer.PrintMessage($"Sum:{sum}");
-            Printer.PrintMessage($"Remainder:{sum}");
+            Printer.PrintMessage($"Remainder:{remainder}");
             Printer.PrintMessage($"x > y: {isGreater}");
+
+            // Bonus challange: calculator
+            var calc = new SimpleCalculator.Calculator();
+            Printer.PrintMessage("\nCalculator operations results:");
+            Printer.PrintMessage($"Calc 7 + 3: {calc.Add(7, 3)}");
+            Printer.PrintMessage($"Calc 14 - 2: {calc.Subtract(14, 2)}");
+            Printer.PrintMessage($"Calc 6 * 4: {calc.Multiply(6, 4)}");
+            Printer.PrintMessage($"Calc 12 / 5: {calc.Divide(12, 5):F2}");
 
             Printer.PrintMessage($"\nProgram executed by: {author}");
             Printer.GetPrintedMessagesCount();
