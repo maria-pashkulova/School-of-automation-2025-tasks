@@ -15,6 +15,9 @@ namespace Session2IfStatements
 
             Console.WriteLine("\nBonus challange 1: Create a login system that checks username and password using nested if statements.Print appropriate messages for: Correct username and password, Correct username but wrong password, Wrong username.");
             LoginSystem.CheckCredentials();
+
+            Console.WriteLine("\nBonus challange 2: Vacation planner");
+            VacationPlanner.DetermineVacationDestination();
         }
     }
 }
