@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Session2IfStatements
 {
-    internal class AgeIdentifier
+    static class AgeIdentifier
     {
         public static void DefineMinorOrAdult()
         {
