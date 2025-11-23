@@ -8,7 +8,7 @@ namespace Session2IfStatements
 {
     static class VacationPlanner
     {
-        public static void DetermineVacationDestination()
+        public static void DetermineVacationInfo()
         {
             double budget = 0;
             string season = "";
@@ -58,47 +58,38 @@ namespace Session2IfStatements
             //budget -> destination
             //season -> how much of the budget will be spent (= price of the campsite or hotel, according to destination
             //summer -> campsite; winter -> hotel; europe-> summer & winter -> hotel
-            if(budget <= 100)
-            {
-                destination = "Bulgaria";
-
-                if (season == "summer")
-                {
-                    typeOfVacation = "Camp";
-                    amountSpent = 0.3 * budget;
-                }
-                else
-                {
-                    typeOfVacation = "Hotel";
-                    amountSpent = 0.7 * budget;
-                }
-            } 
-            else if (budget <= 1000)
-            {
-                destination = "Balkans";
-
-                if (season == "summer")
-                {
-                    typeOfVacation = "Camp";
-                    amountSpent = 0.4 * budget;
-                }
-                else
-                {
-                    typeOfVacation = "Hotel";
-                    amountSpent = 0.8 * budget;
-                }
-            }
-            else
-            {
-                destination = "Europe";
-                typeOfVacation = "Hotel";
-                amountSpent = 0.9 * budget;
-            }
+            
+            destination = GetDestination(budget);
+            (typeOfVacation, amountSpent) = CalculateVacation(season, budget, destination);
+           
 
             Console.WriteLine($"Somewhere in {destination}");
             Console.WriteLine($"{typeOfVacation} - {amountSpent:F2}");
         }
 
+        private static string GetDestination(double budget)
+        {
+            if (budget <= 100) return "Bulgaria";
+            if (budget <= 1000) return "Balkans";
+            return "Europe";
+        }
+
+        private static (string typeOfVacation, double amountSpent) CalculateVacation(string season, double budget, string destination)
+        {
+            if (destination == "Europe")
+            {
+                return ("Hotel", budget * 0.90);
+            }
+
+            if (season == "summer")
+            {
+                return ("Camp", destination == "Bulgaria" ? budget * 0.30 : budget * 0.40);
+            }
+            else // winter
+            {
+                return ("Hotel", destination == "Bulgaria" ? budget * 0.70 : budget * 0.80);
+            }
+        }
       
     }
 }

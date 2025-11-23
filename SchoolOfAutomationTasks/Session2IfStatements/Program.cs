@@ -17,7 +17,7 @@ namespace Session2IfStatements
             LoginSystem.CheckCredentials();
 
             Console.WriteLine("\nBonus challange 2: Vacation planner");
-            VacationPlanner.DetermineVacationDestination();
+            VacationPlanner.DetermineVacationInfo();
         }
     }
 }
