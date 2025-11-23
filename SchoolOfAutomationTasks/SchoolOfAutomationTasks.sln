@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionNamespaces", "SessionNamespaces\SessionNamespaces.csproj", "{8511A917-C3AA-4FF0-AFD8-928CBFFA4211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session2IfStatements", "Session2IfStatements\Session2IfStatements.csproj", "{A0A31C0C-7667-4032-B5C1-1369336E46C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8511A917-C3AA-4FF0-AFD8-928CBFFA4211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8511A917-C3AA-4FF0-AFD8-928CBFFA4211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8511A917-C3AA-4FF0-AFD8-928CBFFA4211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A31C0C-7667-4032-B5C1-1369336E46C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A31C0C-7667-4032-B5C1-1369336E46C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A31C0C-7667-4032-B5C1-1369336E46C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A31C0C-7667-4032-B5C1-1369336E46C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
