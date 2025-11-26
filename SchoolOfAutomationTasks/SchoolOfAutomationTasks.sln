@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session2IfStatements", "Ses
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW_Session_3_Loops", "HW_Session_3_Loops", "{58D95A4C-D84B-4D91-B1BD-BC2A20671D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusChallange", "BonusChallange\BonusChallange.csproj", "{09A5F625-1900-4296-97D0-7B5EF3B4E0BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusChallenge", "BonusChallange\BonusChallenge.csproj", "{09A5F625-1900-4296-97D0-7B5EF3B4E0BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
