@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionNamespaces", "Sessio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session2IfStatements", "Session2IfStatements\Session2IfStatements.csproj", "{A0A31C0C-7667-4032-B5C1-1369336E46C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusChallenge", "HW_Session_3_Loops\ConsoleApp1\BonusChallenge.csproj", "{A6D20C8F-530D-477C-BC56-61EA319AC068}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusChallenge", "HW_Session_3_Loops\BonusChallenge\BonusChallenge.csproj", "{A6D20C8F-530D-477C-BC56-61EA319AC068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "HW_Session_3_Loops\Task1\Task1.csproj", "{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A6D20C8F-530D-477C-BC56-61EA319AC068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D20C8F-530D-477C-BC56-61EA319AC068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D20C8F-530D-477C-BC56-61EA319AC068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
