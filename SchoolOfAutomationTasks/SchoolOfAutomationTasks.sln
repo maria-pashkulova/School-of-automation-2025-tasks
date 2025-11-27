@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusChallenge", "HW_Sessio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "HW_Session_3_Loops\Task1\Task1.csproj", "{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "HW_Session_3_Loops\Task2\Task2.csproj", "{F90D6E90-43C1-4DF0-8832-71D7B8F8D6B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E8D5AF-0187-430A-ACF2-BC82F6E9659C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90D6E90-43C1-4DF0-8832-71D7B8F8D6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90D6E90-43C1-4DF0-8832-71D7B8F8D6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90D6E90-43C1-4DF0-8832-71D7B8F8D6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90D6E90-43C1-4DF0-8832-71D7B8F8D6B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
