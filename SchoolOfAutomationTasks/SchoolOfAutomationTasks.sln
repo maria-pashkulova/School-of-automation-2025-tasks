@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunGreetings", "HW_Session_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceBattleMethods", "HW_Session_4_Methods\DiceBattleMethods\DiceBattleMethods.csproj", "{963C5551-4508-4BDA-BB2E-E120FC71A382}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmailDomain", "HW_Session_5_Strings\ExtractEmailDomain\ExtractEmailDomain.csproj", "{2AF0B980-A534-436C-A3B0-8AD133321793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{963C5551-4508-4BDA-BB2E-E120FC71A382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{963C5551-4508-4BDA-BB2E-E120FC71A382}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{963C5551-4508-4BDA-BB2E-E120FC71A382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF0B980-A534-436C-A3B0-8AD133321793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF0B980-A534-436C-A3B0-8AD133321793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF0B980-A534-436C-A3B0-8AD133321793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF0B980-A534-436C-A3B0-8AD133321793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
