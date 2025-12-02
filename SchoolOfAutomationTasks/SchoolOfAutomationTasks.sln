@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceBattleMethods", "HW_Ses
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmailDomain", "HW_Session_5_Strings\ExtractEmailDomain\ExtractEmailDomain.csproj", "{2AF0B980-A534-436C-A3B0-8AD133321793}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsCompare", "HW_Session_5_Strings\StringsCompare\StringsCompare.csproj", "{822CBEEF-0550-4E1D-8904-C1D95297276A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2AF0B980-A534-436C-A3B0-8AD133321793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF0B980-A534-436C-A3B0-8AD133321793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF0B980-A534-436C-A3B0-8AD133321793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822CBEEF-0550-4E1D-8904-C1D95297276A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822CBEEF-0550-4E1D-8904-C1D95297276A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822CBEEF-0550-4E1D-8904-C1D95297276A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822CBEEF-0550-4E1D-8904-C1D95297276A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
