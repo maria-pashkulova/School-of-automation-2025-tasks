@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks6_7", "HW_Session_7_Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesAndCapitals", "HW_Session_7_Collections\CountriesAndCapitals\CountriesAndCapitals.csproj", "{DD6068BD-BC82-40A0-9E77-BC9D5D2E666C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsNamesAndScores", "HW_Session_7_Collections\StudentsNamesAndScores\StudentsNamesAndScores.csproj", "{11278177-51E7-49D9-AF5A-3BAB96DF5DA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DD6068BD-BC82-40A0-9E77-BC9D5D2E666C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD6068BD-BC82-40A0-9E77-BC9D5D2E666C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD6068BD-BC82-40A0-9E77-BC9D5D2E666C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11278177-51E7-49D9-AF5A-3BAB96DF5DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11278177-51E7-49D9-AF5A-3BAB96DF5DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11278177-51E7-49D9-AF5A-3BAB96DF5DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11278177-51E7-49D9-AF5A-3BAB96DF5DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
