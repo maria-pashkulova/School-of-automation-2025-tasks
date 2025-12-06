@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsCompare", "HW_Sessio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker", "PalindromeChecker\PalindromeChecker.csproj", "{9CAD5F53-F185-4521-AC4B-6E0341938B63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks6_7", "HW_Session_7_Collections\Tasks6_7\Tasks6_7.csproj", "{84792775-AA0C-40AF-A67C-E8F6DC232526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{9CAD5F53-F185-4521-AC4B-6E0341938B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CAD5F53-F185-4521-AC4B-6E0341938B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CAD5F53-F185-4521-AC4B-6E0341938B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84792775-AA0C-40AF-A67C-E8F6DC232526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84792775-AA0C-40AF-A67C-E8F6DC232526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84792775-AA0C-40AF-A67C-E8F6DC232526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84792775-AA0C-40AF-A67C-E8F6DC232526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
