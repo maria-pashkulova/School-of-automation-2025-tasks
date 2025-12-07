@@ -14,6 +14,9 @@
             Console.Write("Initial names in list: ");
             PrintNames(names);
 
+
+            //when we add or remove elements, especially if they are not in the end of the array,
+            //we have to shift the rest of the elements and this is a slow operation.
             names.Remove("Ani");
 
             Console.Write($"{Environment.NewLine}Updated list: ");
